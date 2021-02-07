@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="beb2309e-0848-4801-bc43-836544769549" name="Default Changelist" comment="create django project and shortener app">
+      <changelist_data name="IrekPrzybylo" email="50295266+irekprzybylo@users.noreply.github.com" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate.xsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/activate_this.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/django-admin.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/django-admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip-3.9.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip3.9.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pydoc.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/sqlformat.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel-3.9.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel3.9.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/wheel3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyvenv.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PySho/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PySho/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PySho/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PySho/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PySho/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="ProjectId" id="1o9vQ88BMwY2VGosbwFmdlt7UB7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beb2309e-0848-4801-bc43-836544769549" name="Default Changelist" comment="" />
+      <created>1612711602368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612711602368</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create django project and shortener app" />
+    <option name="LAST_COMMIT_MESSAGE" value="create django project and shortener app" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1164" y="294" key="#Notifications" timestamp="1612716964104">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1164" y="294" key="#Notifications/0.0.2560.1410@0.0.2560.1410" timestamp="1612716964104" />
+    <state x="1691" y="325" key="FileChooserDialogImpl" timestamp="1612711764506">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1691" y="325" key="FileChooserDialogImpl/0.0.2560.1410@0.0.2560.1410" timestamp="1612711764506" />
+    <state x="1412" y="229" key="SettingsEditor" timestamp="1612717086703">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1412" y="229" key="SettingsEditor/0.0.2560.1410@0.0.2560.1410" timestamp="1612717086703" />
+    <state x="1830" y="415" key="VCS.EditChangelistDialog" timestamp="1612716919472">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1830" y="415" key="VCS.EditChangelistDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1612716919472" />
+    <state x="1728" y="498" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612711815946">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1728" y="498" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1410@0.0.2560.1410" timestamp="1612711815946" />
+  </component>
+</project>
