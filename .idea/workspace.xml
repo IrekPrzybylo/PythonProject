@@ -21,50 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="beb2309e-0848-4801-bc43-836544769549" name="Default Changelist" comment="create django project and shortener app">
       <changelist_data name="IrekPrzybylo" email="50295266+irekprzybylo@users.noreply.github.com" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/activate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/activate.xsh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/activate_this.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/deactivate.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/django-admin.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/django-admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/pip-3.9.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/pip.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/pip3.9.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/pip3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/pydoc.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/python.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/pythonw.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/sqlformat.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/wheel-3.9.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/wheel.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/wheel3.9.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/wheel3.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PySho/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PySho/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PySho/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PySho/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PySho/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortener/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortener/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortener/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortener/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortener/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortener/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortener/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PySho/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PySho/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shortener/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shortener/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
