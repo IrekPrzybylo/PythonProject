@@ -21,16 +21,27 @@
   <component name="ChangeListManager">
     <list default="true" id="beb2309e-0848-4801-bc43-836544769549" name="Default Changelist" comment="create django project and shortener app">
       <changelist_data name="IrekPrzybylo" email="50295266+irekprzybylo@users.noreply.github.com" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PySho/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PySho/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shortener/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PySho/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PySho/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shortener/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shortener/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shortener/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,6 +56,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\irekp\Dev\PythonProject\src\shortener\management\commands" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,10 +90,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="create django project and shortener app" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1164" y="294" key="#Notifications" timestamp="1612716964104">
+    <state x="1164" y="294" key="#Notifications" timestamp="1612802112383">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="1164" y="294" key="#Notifications/0.0.2560.1410@0.0.2560.1410" timestamp="1612716964104" />
+    <state x="1164" y="294" key="#Notifications/0.0.2560.1410@0.0.2560.1410" timestamp="1612802112383" />
+    <state x="1650" y="102" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612797392157">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1650" y="102" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1612797392157" />
     <state x="1691" y="325" key="FileChooserDialogImpl" timestamp="1612711764506">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -94,5 +114,9 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1728" y="498" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1410@0.0.2560.1410" timestamp="1612711815946" />
+    <state x="1583" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1612799426701">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="1583" y="195" width="672" height="678" key="search.everywhere.popup/0.0.2560.1410@0.0.2560.1410" timestamp="1612799426701" />
   </component>
 </project>

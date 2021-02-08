@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from shortener.views import pysho_redirect_view, PyShoCBView
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('a/<slug:shortcode>/', pysho_redirect_view),
+    path('b/<slug:shortcode>/', PyShoCBView.as_view()),
 ]
