@@ -21,14 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="beb2309e-0848-4801-bc43-836544769549" name="Default Changelist" comment="create django project and shortener app">
       <changelist_data name="IrekPrzybylo" email="50295266+irekprzybylo@users.noreply.github.com" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shortener/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shortener/migrations/0002_auto_20210208_2047.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PySho/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PySho/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PySho/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/PySho/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shortener/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shortener/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shortener/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shortener/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

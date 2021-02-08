@@ -1,13 +1,18 @@
-from django.http import HttpResponse
-from django.shortcuts import render
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, get_object_or_404
 from django.views import View
+
+from .models import PyShoURL
 
 # Create your views here.
 
 def pysho_redirect_view(request, shortcode=None, *args, **kwargs):  # function based view FBV
-    return HttpResponse("hello {sc}".format(sc=shortcode))
+    # getting real url or if it not exists we get 404 page
+    obj = get_object_or_404(PyShoURL, shortcode=shortcode)
+    return HttpResponseRedirect(obj.url)
 
 class PyShoCBView(View):  # class based view CBV
     def get(self, request, shortcode=None, *args, **kwargs):
-        return HttpResponse("hello again {sc}".format(sc=shortcode))
+        obj = get_object_or_404(PyShoURL, shortcode=shortcode)
+        return HttpResponseRedirect(obj.url)
 

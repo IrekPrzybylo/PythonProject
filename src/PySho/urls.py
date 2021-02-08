@@ -21,6 +21,7 @@ from shortener.views import pysho_redirect_view, PyShoCBView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('a/<slug:shortcode>/', pysho_redirect_view),
-    path('b/<slug:shortcode>/', PyShoCBView.as_view()),
+    # path(r'^(?P<slug:shortcode>{6,15})$', pysho_redirect_view),
+    path('a/<slug:shortcode>', pysho_redirect_view),
+    path('b/<slug:shortcode>', PyShoCBView.as_view()),
 ]
