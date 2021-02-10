@@ -1,18 +1,51 @@
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, Http404
 from django.shortcuts import render, get_object_or_404
 from django.views import View
 
+from analytics.models import ClickEvent
+from .forms import SubmitUrlForm
 from .models import PyShoURL
+
 
 # Create your views here.
 
-def pysho_redirect_view(request, shortcode=None, *args, **kwargs):  # function based view FBV
-    # getting real url or if it not exists we get 404 page
-    obj = get_object_or_404(PyShoURL, shortcode=shortcode)
-    return HttpResponseRedirect(obj.url)
+class HomeView(View):
+    def get(self, request, *args, **kwargs):
+        the_form = SubmitUrlForm()
+        context = {
+            "title": "PySho.rt",
+            "form": the_form
+        }
+        return render(request, "shortener/home.html", context)
 
-class PyShoCBView(View):  # class based view CBV
+    # post method
+    def post(self, request, *args, **kwargs):
+        form = SubmitUrlForm(request.POST)
+        context = {
+            "title": "PySho.rt",
+            "form": form
+        }
+        template = "shortener/home.html"
+        if form.is_valid():
+            new_url = form.cleaned_data.get("url")
+            obj, created = PyShoURL.objects.get_or_create(url=new_url)
+            context = {
+                "object": obj,
+                "created": created,
+            }
+            if created:
+                template = "shortener/success.html"
+            else:
+                template = "shortener/already-exists.html"
+
+        return render(request, template, context)
+
+
+class URLRedirectView(View):  # class based view CBV
     def get(self, request, shortcode=None, *args, **kwargs):
-        obj = get_object_or_404(PyShoURL, shortcode=shortcode)
+        qs = PyShoURL.objects.filter(shortcode__iexact=shortcode)
+        if qs.count() != 1 and not qs.exists():
+            raise Http404
+        obj = qs.first()
+        print(ClickEvent.objects.create_event(obj))
         return HttpResponseRedirect(obj.url)
-

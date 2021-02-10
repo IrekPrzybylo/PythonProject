@@ -10,7 +10,6 @@ SHORTCODE_MIN = getattr(settings, "SHORTCODE_MIN", 6)
 # taking lowercase letters and digits
 # then return random generated string
 def code_generator(size=SHORTCODE_MIN, chars=string.ascii_lowercase + string.digits):
-    #
     return ''.join(random.choice(chars) for _ in range(size))
 
 
